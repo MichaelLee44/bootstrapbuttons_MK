@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+a{
+    margin:10px;
+}
+
+#q1-output-correct, #q1-output-wrong, #q2-output-correct, #q1-output-correct2{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+#q1-output-wrong{
+    margin-top:-110px;
+}
+
+#q2-check{
+    margin-left: 10px;
+}
+
+#q1-output-correct:target, #q2-output-correct:target, #q2-output-correct:target{
+    background-color: green;
+}
+#q1-output-wrong:target{
+    background-color: red;
+}
